@@ -1,0 +1,45 @@
+.experience-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(20, px);
+    gap: 10px;
+}
+
+.experience-boxes h1 {
+    border-radius: 16px;
+    padding-inline: 5px;
+    padding-block: 5px;
+}
+
+.experienceBoxes-box {
+    border-radius: 16px;
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+
+.experienceBoxes-box span {
+    font-weight: 300;
+    font-style: italic;
+    padding-inline: 5px;
+    padding-block: 5x;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+}
+
+.experienceBoxes-box p {
+    margin: 0;
+    font-weight: 800;
+}
+
+.experienceBoxes-box ul {
+    margin: 0;
+    font-weight: 300;
+}
+
+.experienceBoxes-box a {
+    text-decoration: none;
+    font-size: 48px;
+    padding-inline: 20px;
+    color: var(--font-color5)
+}

@@ -1,14 +1,18 @@
 import './styles.css'
 import { useRoutes, BrowserRouter } from 'react-router-dom'
-import Layout from '../../Components/Layout'
-import LayoutWrapper from '../../Components/LayoutWrapper'
+import Home from '../Home'
+import Experience from '../Experience'
+import Education from '../Education'
+import Project from '../Project'
 
 
 const AppRoutes = () => {
 
   let routes = useRoutes([
-    // { path: '/', element: <Chango /> },
-    // { path: '/*', element: <NotFound /> },
+    { path: '/', element: <Home /> },
+    { path: '/experience', element: <Experience /> },
+    { path: '/education', element: <Education /> },
+    { path: '/project', element: <Project /> },
   ])
 
   return routes
@@ -21,8 +25,6 @@ function App() {
     <>
       <BrowserRouter>
       <AppRoutes />
-      <Layout />
-      <LayoutWrapper />
       </BrowserRouter>
     </>
   )

@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menu-wrapper {
+        background-color: var(--white);
+        margin-block-start: 180px;
+        margin-block-end: 40px;
+        display: flex;
+        padding-block: 30px;
+        padding-inline: 30px;
+        flex-direction: row;
+        justify-content: end;
+        gap: 20px;
+        border-radius: 16px;
+        margin-inline-start: 150px;
+    }
+
+    .menuWrapper-box {
+        padding-block: 16px;
+        padding-inline: 16px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--gray10);
+        transition: 0s background-color;
+        inline-size: 75px;
+        block-size: 80px;
+        border-radius: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menuWrapper-box:hover {
+        background: rgb(250, 176, 196);
+        transition-delay: 0.1s;
+    }
+
+    .menu-wrapper a {
+        text-decoration: none;
+    }
+
+    .menu-wrapper i {
+        font-size: 48px;
+    }
+
+    .menu-wrapper .menuWrapper-box:nth-of-type(1) i {
+        color: var(--font-color1)
+    }
+
+    .menu-wrapper .menuWrapper-box:nth-of-type(2) i {
+        color: var(--font-color2)
+    }
+
+    .menu-wrapper .menuWrapper-box:nth-of-type(3) i {
+        color: var(--font-color3)
+    }
+
+    .menu-wrapper .menuWrapper-box:nth-of-type(4) i {
+        color: var(--font-color4)
+    }
+}

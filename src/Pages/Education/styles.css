@@ -1,0 +1,42 @@
+.education-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(20, px);
+    gap: 10px;
+}
+
+.educationBoxes-box {
+    border-radius: 16px;
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+
+.educationBoxes-box a {
+    text-decoration: none;
+    font-size: 48px;
+    padding-inline: 20px;
+    padding-block: 20px;
+    margin-inline-end: 10px;
+    background-color: var(--white);
+    border-radius: 16px;
+    color: var(--font-color5);
+}
+
+.educationBoxes-box a:hover {
+    background: var(--hover);
+}
+
+.educationBoxes-box span {
+    font-weight: 300;
+    font-style: italic;
+    padding-inline: 5px;
+    padding-block: 5x;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+}
+
+.educationBoxesBox-icon {
+    display: flex;
+    align-items: center;
+}

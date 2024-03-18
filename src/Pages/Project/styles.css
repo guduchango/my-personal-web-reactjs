@@ -1,0 +1,51 @@
+.proyectBoxes-box {
+    border-radius: 16px;
+    padding-inline: 5px;
+    padding-block: 5px;
+    margin-block-end: 20px;
+}
+
+.proyectBoxesBox-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: px;
+    margin-inline: 16px;
+    margin-block: 16px;
+}
+
+.proyectBoxesBoxHeader-links {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.proyectBoxesBoxHeader-links i {
+    font-size: 28px;
+}
+
+.proyectBoxesBoxHeader-links a {
+    background-color: var(--white);
+    margin-inline-start: 20px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--font-color5);
+}
+
+.proyectBoxesBoxHeader-links a:hover {
+    background-color: var(--hover);
+}
+
+.proyectBoxesBox-info {
+    display: flex;
+    align-items: center;
+    margin-inline: 16px;
+    margin-block: 16px;
+}
+
+.proyectBoxesBox-info img {
+    border-radius: 24px;
+}

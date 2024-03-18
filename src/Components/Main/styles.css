@@ -1,0 +1,150 @@
+main {
+    background: var(--white);
+    margin-block-start: 180px;
+    margin-block-end: 24px;
+    border-radius: 20px;
+}
+
+.main-wrapper {
+    /* margin-block-start: 100px; */
+    text-align: center;
+    padding-inline: 24px;
+    padding-block-end: 24px;
+}
+
+.main-wrapper h1,
+h2 {
+    font-weight: 300;
+}
+
+.main-wrapper h1 {
+    font-weight: 600;
+}
+
+.main-wrapper img {
+    border-radius: 16px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translate(0, -50%);
+    margin-block-end: -125px;
+    object-fit: cover;
+}
+
+.mainWrapper-socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-block-end: 50px;
+}
+
+.mainWrapper-socialIcons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray10);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    transition: 0s background-color;
+    text-decoration: none;
+}
+
+.mainWrapper-socialIcons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray10);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    transition: 0s background-color;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.mainWrapper-socialIcons a:nth-of-type(1) i {
+    color: var(--font-color4)
+}
+
+.mainWrapper-socialIcons a:nth-of-type(2) i {
+    color: black;
+}
+
+.mainWrapper-socialIcons a:nth-of-type(3) i {
+    color: var(--font-color11)
+}
+
+.mainWrapper-socialIcons a:hover {
+    background: var(--hover);
+    transition-delay: 0.1s;
+}
+
+.mainWrapper-personalInfo {
+    background: var(--gray10);
+    margin-block-start: 28px;
+    padding-block: 28px;
+    padding-inline: 28px;
+    border-radius: 1rem;
+}
+
+.mainWrapperPersonalInfo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding-block: 10px;
+    border-block-end: solid 1px var(--gray20);
+    inline-size: 100%;
+}
+
+.mainWrapper-personalInfo .mainWrapperPersonalInfo-item:nth-last-child(1) {
+    border-block-end: none;
+}
+
+.mainWrapperPersonalInfoItem-text {
+    display: block;
+    text-align: left;
+    margin-inline-start: 16px;
+    text-overflow: "-";
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.mainWrapperPersonalInfoItem-text p {
+    margin: 0;
+}
+
+.mainWrapperPersonalInfoItem-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 10px;
+}
+
+.mainWrapperPersonalInfo-item:nth-of-type(1) i {
+    color: var(--font-color3)
+}
+
+.mainWrapperPersonalInfo-item:nth-of-type(2) i {
+    color: var(--font-color1)
+}
+
+.mainWrapperPersonalInfo-item:nth-of-type(3) i {
+    color: var(--font-color2)
+}
+
+.mainWrapperPersonalInfo-item:nth-of-type(4) i {
+    color: var(--font-color4)
+}
+
+
+@media screen and (min-width: 900px) {
+    main {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        block-size: 100dvh;
+        position: sticky;
+        top: 220px;
+    }
+}

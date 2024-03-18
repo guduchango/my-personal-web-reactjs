@@ -1,0 +1,74 @@
+.aboutMe-info {
+    line-height: 2.5;
+}
+
+.aboutMe-boxes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    block-size: 100%;
+}
+
+.aboutMeBoxes-details {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    block-size: 100%;
+    border-radius: 16px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+.aboutMeBoxesDetails-title {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    border-block-start: 2px solid var(--font-color4);
+    padding-block-start: 5px;
+    font-weight: 300;
+}
+
+.aboutMeBoxesDetails-tags {
+    margin-inline-start: 20px;
+}
+
+.aboutMeBoxesDetails-tags span {
+    padding-inline: 10px;
+    padding-block: 5px;
+    margin-inline: 5px;
+    margin-block: 5px;
+    border-radius: 16px;
+    background-color: var(--white);
+    line-height: 2.5;
+}
+
+.aboutMe-boxes .aboutMeBoxes-details:nth-of-type(1) i {
+    color: var(--font-color1)
+}
+
+.aboutMe-boxes .aboutMeBoxes-details:nth-of-type(2) i {
+    color: var(--font-color2)
+}
+
+.aboutMe-boxes .aboutMeBoxes-details:nth-of-type(3) i {
+    color: var(--font-color3)
+}
+
+.aboutMe-boxes .aboutMeBoxes-details:nth-of-type(4) i {
+    color: var(--font-color4)
+}
+
+.aboutMe-boxes .aboutMeBoxes-details:nth-of-type(5) i {
+    color: var(--font-color6)
+}
+
+@media screen and (min-width: 900px) {
+    .aboutMe-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .aboutMeBoxes-details {
+        margin-inline: 20px;
+        block-size: 250px;
+    }
+}
