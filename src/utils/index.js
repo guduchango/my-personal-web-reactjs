@@ -9,4 +9,8 @@ export class InfoWeb {
     getEducationInfo(){
         return this.info['education']
     }
+
+    getProjectInfo(){
+        return this.info['project']
+    }
 }

@@ -36,5 +36,105 @@
             "place":"platzi.com",
             "certificate_url":"./files/certificates/diploma-react-typescript.pdf"
         }
+    ],
+    "project": [
+        {
+            "title":"2024 - Shopping store",
+            "web_url":"https://simple-store-vite-react-tailwind.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/platzi-vite-react-tailwind",
+            "image_url":"/src/assets/images/projects/platzi-vite-react-tailwind.png",
+            "alt":"shopping store capture",
+            "detail_list": [
+                "React.js",
+                "TailwindCss",
+                "Manipulate API to show images",
+                "Example context variables usage",
+                "Division of components"
+            ]
+        },
+        {
+            "title":"2024 - Simple blog example",
+            "web_url":"https://leonidas-html-y-css-essential.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/leonidas-html-css-essential",
+            "image_url":"/src/assets/images/projects/leonidas-html-css-essential.png",
+            "alt":"simple bloc capture",
+            "detail_list": [
+                "Basic CSS concepts",
+                "Semantic optimization",
+                "HTML semantic section",
+                "Mobile manipulation",
+                "Slider with only CSS"
+            ]
+        },
+        {
+            "title":"2024 - Google calendar CSS grid",
+            "web_url":"https://leonidas-css-grid-layout-interfaces.edgardoponce.com/calendar/index.html",
+            "github_url":"https://github.com/guduchango/leonidas-css-grid-layout-interfaces",
+            "image_url":"/src/assets/images/projects/leonidas-css-grid-layout-interfaces.png",
+            "alt":"simple calendar capture",
+            "detail_list": [
+                "Layout using CSS Grid",
+                "Dark mode example",
+                "Popup form show",
+                "Sticky header"
+            ]
+        },
+        {
+            "title":"2024 - Awesome travel site",
+            "web_url":"https://travel-vite-tailwind-react.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/platzi-travel-tailwind-reactjs",
+            "image_url":"/src/assets/images/projects/travel-vite-tailwind-react.png",
+            "alt":"travel site capture",
+            "detail_list": [
+                "Tailwind CSS",
+                "Mobile first, utility first",
+                "Dark mode example",
+                "Project layout"
+            ]
+        },
+        {
+            "title":"2024 - Fox example gallery",
+            "web_url":"https://fox-nextjs-typescript-tailwind.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/platzi-fox-nextjs-typescript-tailwind",
+            "image_url":"/src/assets/images/projects/fox-nextjs-typescript-tailwind.png",
+            "alt":"example gallery fox",
+            "detail_list": [
+                "Next.js",
+                "Typescript",
+                "Javascript",
+                "Lazy load images"
+            ]
+        },
+        {
+            "title":"2024 - Survey magnament",
+            "web_url":"https://frontend-survey-laravel-react-vite-tailwind.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/survey-laravel-react-vite-tailwind",
+            "image_url":"/src/assets/images/projects/frontend-survey-laravel-react-vite-tailwind.png",
+            "alt":"survey project capture",
+            "detail_list": [
+                "React.js (frontend)",
+                "Laravel (backend)",
+                "Vite",
+                "Sactun authentification",
+                "Composer",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "title":"2024 - My personal web",
+            "web_url":"https://guduchango.github.io/guduchango/",
+            "github_url":"https://github.com/guduchango/guduchango",
+            "image_url":"/src/assets/images/projects/my-personal-web.png",
+            "alt":"edgardo ponce personal web capture",
+            "detail_list": [
+                "CSS Grid",
+                "Layouts",
+                "FlexBox",
+                "Semantic",
+                "Javascript",
+                "Responsive design"
+            ]
+        }
+    
     ]
 }
