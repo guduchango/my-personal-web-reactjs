@@ -4,7 +4,7 @@ import Home from '../Home'
 import Experience from '../Experience'
 import Education from '../Education'
 import Project from '../Project'
-
+import { GlobalContextProvider } from '../../Context'
 
 const AppRoutes = () => {
 
@@ -22,11 +22,11 @@ const AppRoutes = () => {
 function App() {
 
   return (
-    <>
+    <GlobalContextProvider>
       <BrowserRouter>
-      <AppRoutes />
+        <AppRoutes />
       </BrowserRouter>
-    </>
+    </GlobalContextProvider>
   )
 }
 

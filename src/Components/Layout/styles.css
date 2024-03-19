@@ -68,7 +68,7 @@ section h2 {
     .layout-wrapper {
         display: grid;
         grid-template-columns: 0.5fr 1.5fr;
-        grid-template-rows: px px px;
         column-gap: 40px;
+        margin-inline: 20px;
     }
 }

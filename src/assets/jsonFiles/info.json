@@ -1,0 +1,40 @@
+{
+    "education": [
+        {
+            "year": "2019 - 2020",
+            "title" : "Senior Programming Technician",
+            "place": "National Technological University",
+            "certificate_url": "./files/certificates/curso-esencial-de-html-y-css.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "Essential Course HTML & CSS",
+            "place":"leonidasesteban.com",
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "CSS Course Grid Layout and Interfaces",
+            "place":"leonidasesteban.com",
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "TailwindCss",
+            "place":"platzi.com",
+            "certificate_url":"./files/certificates/diploma-tailwind.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "React.js with Vite.js and TailwindCss",
+            "place":"platzi.com",
+            "certificate_url":"./files/certificates/diploma-react-vite-tailwindcss.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "React.js with typescript",
+            "place":"platzi.com",
+            "certificate_url":"./files/certificates/diploma-react-typescript.pdf"
+        }
+    ]
+}

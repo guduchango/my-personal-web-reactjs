@@ -15,11 +15,11 @@
     text-decoration: none;
     font-size: 48px;
     padding-inline: 20px;
-    padding-block: 20px;
+    padding-block: 12px;
     margin-inline-end: 10px;
     background-color: var(--white);
     border-radius: 16px;
-    color: var(--font-color5);
+    
 }
 
 .educationBoxes-box a:hover {
@@ -39,4 +39,8 @@
 .educationBoxesBox-icon {
     display: flex;
     align-items: center;
+}
+
+.educationBoxesBox-icon i {
+    color: var(--font-color5);
 }
