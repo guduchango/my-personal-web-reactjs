@@ -11,12 +11,16 @@ export const GlobalContextProvider = ({children}) => {
    /* Read json file from local */
   const [educationInfo] = useState(infoWeb.getEducationInfo())
   const [projectInfo] = useState(infoWeb.getProjectInfo())
+  const [experienceInfo] = useState(infoWeb.getExperienceInfo())
+  const [skillInfo] = useState(infoWeb.getSkillInfo())
 
 
   return (
     <GlobalContext.Provider value={{
      educationInfo,
-     projectInfo
+     projectInfo,
+     experienceInfo,
+     skillInfo
     }}>
       {children}
     </GlobalContext.Provider>

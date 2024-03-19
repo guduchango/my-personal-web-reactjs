@@ -1,8 +1,14 @@
 
+import { useContext } from 'react';
 import Layout from '../../Components/Layout'
 import './styles.css'
+import { GlobalContext } from '../../Context';
 
 const Home = () => {
+
+    const context = useContext(GlobalContext);
+    const items = context.skillInfo;
+
     return (
         <Layout>
             <section aria-labelledby="about me">
@@ -17,67 +23,20 @@ const Home = () => {
                     <h2>Skills</h2>
                 </div>
                 <div className="aboutMe-boxes boxes-color">
-                    <div className="aboutMeBoxes-details">
+                {items.map((item, index) => (
+                
+                    <div key={index} className="aboutMeBoxes-details">
                         <div className="aboutMeBoxesDetails-title">
-                            <span>BACKEND</span>
+                            <span>{item.title}</span>
                         </div>
                         <div className="aboutMeBoxesDetails-tags">
-                            <span className='tag-cloud'>Laravel</span>
-                            <span className='tag-cloud'>PHP</span>
-                            <span className='tag-cloud'>NodeJs</span>
-                            <span className='tag-cloud'>Javascript</span>
-                            <span className='tag-cloud'>Java</span>
-                            <span className='tag-cloud'>Kotlin</span>
-                            <span className='tag-cloud'>Magento</span>
-                            <span className='tag-cloud'>Typescript</span>
+                        {item.tags.map((it, ix) => (
+                            <span key={ix}>{it}</span>
+                        ))}
                         </div>
                     </div>
-                    <div className="aboutMeBoxes-details">
-                        <div className="aboutMeBoxesDetails-title">
-                            <span>FRONTEND</span>
-                        </div>
-                        <div className="aboutMeBoxesDetails-tags">
-                            <span>CSS</span>
-                            <span>Grid</span>
-                            <span>Flexbox</span>
-                            <span>Tailwind</span>
-                            <span>Semantic</span>
-                            <span>Layout</span>
-                            <span>React.js</span>
-                            <span>Next.js</span>
-                        </div>
-                    </div>
-                    <div className="aboutMeBoxes-details">
-                        <div className="aboutMeBoxesDetails-title">
-                            <span>SYSADMIN</span>
-                        </div>
-                        <div className="aboutMeBoxesDetails-tags">
-                            <span>Linux</span>
-                            <span>Docker</span>
-                            <span>Docker Compose</span>
-                            <span>Kubernetes</span>
-                            <span>AWS</span>
-                            <span>Apache</span>
-                            <span>Nginx</span>
-                            <span>ElasticSearch</span>
-                            <span>MySql</span>
-                            <span>BigQuery</span>
-                        </div>
-                    </div>
-                    <div className="aboutMeBoxes-details">
-                        <div className="aboutMeBoxesDetails-title">
-                            <span>TOOLS</span>
-                        </div>
-                        <div className="aboutMeBoxesDetails-tags">
-                            <span>JMeter</span>
-                            <span>New Relic</span>
-                            <span>PHP Storm</span>
-                            <span>Vs Code</span>
-                            <span>GIT</span>
-                            <span>Jenkins</span>
-                            <span>Cypress</span>
-                        </div>
-                    </div>
+
+                    ))}
                 </div>
             </div>
             </section>

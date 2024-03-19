@@ -13,4 +13,12 @@ export class InfoWeb {
     getProjectInfo(){
         return this.info['project']
     }
+
+    getExperienceInfo(){
+        return this.info['experience']
+    }
+
+    getSkillInfo(){
+        return this.info['skill']
+    }
 }

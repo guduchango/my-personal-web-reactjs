@@ -1,9 +1,13 @@
 
+import { useContext } from 'react';
 import Layout from '../../Components/Layout'
 import './styles.css'
+import { GlobalContext } from '../../Context';
 
 const Experience = () => {
 
+    const context = useContext(GlobalContext);
+    const items = context.experienceInfo;
 
     return (
         <Layout>
@@ -11,18 +15,19 @@ const Experience = () => {
                 <div className="section-wrapper">
                     <h2>Experience</h2>
                     <div className="experience-boxes boxes-color">
-                        <div className="experienceBoxes-box">
-                            <span>2021 - 2022</span>
-                            <p>Full Stack Developer</p>
-                            <ul>
-                                <li>Laravel with BigQuery</li>
-                                <li>NodeJs with aws lambda</li>
-                                <li>Magento Migrations versions</li>
-                                <li>Kubernetes devOps of magento projects</li>
-                            </ul>
-                            <span>Best Worlds</span>
-                        </div>
-                        <div className="experienceBoxes-box">
+                        {items.map((item, index) => (
+                            <div key={index} className="experienceBoxes-box">
+                                <span>{item.year}</span>
+                                <p>{item.title}</p>
+                                <ul>
+                                {item.task_list.map((it, ix) => (
+                                    <li key={ix}>{it}</li>
+                                    ))}
+                                </ul>
+                                <span>{item.place}</span>
+                            </div>
+                        ))}
+                        {/* <div className="experienceBoxes-box">
                             <span>2020 - 2021</span>
                             <p>Lead Magento Cloud</p>
                             <ul>
@@ -117,7 +122,7 @@ const Experience = () => {
                                 <li>Programming in C language</li>
                             </ul>
                             <span>IT&T Mendoza</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
