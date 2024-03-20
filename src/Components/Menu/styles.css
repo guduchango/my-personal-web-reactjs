@@ -30,8 +30,7 @@
         inline-size: 75px;
         block-size: 80px;
         border-radius: 16px;
-        justify-content: center;
-        text-align: center;
+        align-items: center;
     }
 
     .menuWrapper-box:hover {

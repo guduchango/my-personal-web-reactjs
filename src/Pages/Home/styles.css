@@ -29,6 +29,7 @@
 
 .aboutMeBoxesDetails-tags {
     margin-inline-start: 20px;
+    white-space: break-spaces;
 }
 
 .aboutMeBoxesDetails-tags span {
@@ -39,6 +40,7 @@
     border-radius: 16px;
     background-color: var(--white);
     line-height: 2.5;
+    display: inline-block;
 }
 
 .aboutMe-boxes .aboutMeBoxes-details:nth-of-type(1) i {
@@ -63,8 +65,8 @@
 
 @media screen and (min-width: 900px) {
     .aboutMe-boxes {
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .aboutMeBoxes-details {

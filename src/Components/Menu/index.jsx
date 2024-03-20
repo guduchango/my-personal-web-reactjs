@@ -1,44 +1,38 @@
 import { NavLink } from 'react-router-dom'
 import './styles.css'
-
 const Menu = () => {
-    const activeStyle = 'isActive'
+    const activeStyle = 'menuWrapperBox-isActive'
 
     return (
         <div className="menu">
             <div className="menu-wrapper">
-                <div className="menuWrapper-box">
-                <NavLink
-                    to='/'
-                    className={({ isActive }) => isActive ? activeStyle : undefined}>
+                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
+                <NavLink to='/'>
                     <i className="icon-home"></i>
-                    Home
                 </NavLink>
+                <span>Home</span>
                 </div>
-                <div className="menuWrapper-box">
+                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
                 <NavLink
-                    to='/experience'
-                    className={({ isActive }) => isActive ? activeStyle : undefined}>
+                    to='/experience'>
                      <i className="icon-file-text"></i>
-                    Experience
                 </NavLink>
+                <span>Experience</span>
                 </div>
-                <div className="menuWrapper-box">
+                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
                 <NavLink
-                    to='/education'
-                    className={({ isActive }) => isActive ? activeStyle : undefined}>
+                    to='/education'>
                     <i className="icon-shield"></i>
-                    Education
                 </NavLink>
+                <span>Education</span>
                 </div>
-                <div className="menuWrapper-box">
+                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
                 <NavLink
-                    to='/project'
-                    className={({ isActive }) => isActive ? activeStyle : undefined}>
+                    to='/project'>
                     <i className="icon-laptop"></i>
-                    Projects
                 </NavLink>
-                </div>
+                <span>Project</span>
+            </div>
             </div>
         </div>
     )

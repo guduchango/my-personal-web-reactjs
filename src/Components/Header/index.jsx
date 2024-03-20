@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './styles.css'
 
 const Header = () => {
@@ -5,24 +6,24 @@ const Header = () => {
         <header className="header">
             <nav>
                 <div className="nav-box" title="home">
-                    <a id="mobileHomeIcon-btn" href="#">
-                        <i className="icon-home" aria-hidden="true"></i>
-                    </a>
+                    <NavLink to='/'>
+                        <i className="icon-home"></i>
+                    </NavLink>
                 </div>
                 <div className="nav-box" title="experience">
-                    <a id="experienceHomeIcon-btn" href="#">
-                        <i className="icon-file-text" aria-hidden="true"></i>
-                    </a>
+                    <NavLink to='/experience'>
+                        <i className="icon-file-text"></i>
+                    </NavLink>
                 </div>
                 <div className="nav-box" title="education">
-                    <a id="educationHomeIcon-btn" href="#">
-                        <i className="icon-shield" aria-hidden="true"></i>
-                    </a>
+                    <NavLink to='/education'>
+                        <i className="icon-shield"></i>
+                    </NavLink>
                 </div>
                 <div className="nav-box" title="projects">
-                    <a id="projectsHomeIcon-btn" href="#">
-                        <i className="icon-laptop" aria-hidden="true"></i>
-                    </a>
+                    <NavLink to='/project'>
+                        <i className="icon-laptop"></i>
+                    </NavLink>
                 </div>
             </nav>
         </header>
