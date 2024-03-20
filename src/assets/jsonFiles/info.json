@@ -39,6 +39,39 @@
     ],
     "project": [
         {
+            "title":"2024 - My personal web with react",
+            "web_url":"https://github.com/guduchango/my-personal-web-reactjs",
+            "github_url":"https://personal-web-presentation-reactjs.edgardoponce.com/",
+            "image_url":"/src/assets/images/projects/my-personal-web.png",
+            "alt":"edgardo ponce personal web capture",
+            "detail_list": [
+                "Reactjs",
+                "Components",
+                "Context variables",
+                "Json local file",
+                "Example of an organized structure in reactjs",
+                "Responsive design",
+                "Flexbox",
+                "Semantic"
+            ]
+        },
+        {
+            "title":"2024 - My personal web only HTML and CSS",
+            "web_url":"https://personal-web-presentation.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/my-personal-web-simple",
+            "image_url":"/src/assets/images/projects/my-personal-web.png",
+            "alt":"edgardo ponce personal web capture",
+            "detail_list": [
+                "CSS Grid",
+                "Layouts",
+                "FlexBox",
+                "Semantic",
+                "Javascript",
+                "Responsive design"
+            ]
+        },
+        {
+            
             "title":"2024 - Shopping store",
             "web_url":"https://simple-store-vite-react-tailwind.edgardoponce.com/",
             "github_url":"https://github.com/guduchango/platzi-vite-react-tailwind",
@@ -119,22 +152,8 @@
                 "Composer",
                 "Tailwind CSS"
             ]
-        },
-        {
-            "title":"2024 - My personal web",
-            "web_url":"https://guduchango.github.io/guduchango/",
-            "github_url":"https://github.com/guduchango/guduchango",
-            "image_url":"/src/assets/images/projects/my-personal-web.png",
-            "alt":"edgardo ponce personal web capture",
-            "detail_list": [
-                "CSS Grid",
-                "Layouts",
-                "FlexBox",
-                "Semantic",
-                "Javascript",
-                "Responsive design"
-            ]
         }
+       
     
     ],
     "experience":[
