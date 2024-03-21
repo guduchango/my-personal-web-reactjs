@@ -46,19 +46,19 @@
         font-size: 48px;
     }
 
-    .menu-wrapper .menuWrapper-box:nth-of-type(1) i {
+    .menu-wrapper a:nth-of-type(1) i {
         color: var(--font-color1)
     }
 
-    .menu-wrapper .menuWrapper-box:nth-of-type(2) i {
+    .menu-wrapper a:nth-of-type(2) i {
         color: var(--font-color2)
     }
 
-    .menu-wrapper .menuWrapper-box:nth-of-type(3) i {
+    .menu-wrapper a:nth-of-type(3) i {
         color: var(--font-color3)
     }
 
-    .menu-wrapper .menuWrapper-box:nth-of-type(4) i {
+    .menu-wrapper a:nth-of-type(4) i {
         color: var(--font-color4)
     }
 }

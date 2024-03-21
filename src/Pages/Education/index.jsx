@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import Layout from '../../Components/Layout'
 import { GlobalContext } from '../../Context'
 import './styles.css'
@@ -7,6 +7,9 @@ const Education = () => {
 
     const context = useContext(GlobalContext);
     const items = context.educationInfo;
+    useEffect(() => {
+        context.setNavSection("education")
+      }, [context])
 
     return (
         <Layout>

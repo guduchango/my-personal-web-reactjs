@@ -14,13 +14,17 @@ export const GlobalContextProvider = ({children}) => {
   const [experienceInfo] = useState(infoWeb.getExperienceInfo())
   const [skillInfo] = useState(infoWeb.getSkillInfo())
 
+  /* NavLink selected */
+  const [navSection,setNavSection] = useState(null)
 
   return (
     <GlobalContext.Provider value={{
      educationInfo,
      projectInfo,
      experienceInfo,
-     skillInfo
+     skillInfo,
+     navSection,
+     setNavSection
     }}>
       {children}
     </GlobalContext.Provider>

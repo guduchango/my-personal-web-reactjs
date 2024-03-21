@@ -6,33 +6,30 @@ const Menu = () => {
     return (
         <div className="menu">
             <div className="menu-wrapper">
-                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
                 <NavLink to='/'>
-                    <i className="icon-home"></i>
+                    <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
+                        <i className="icon-home"></i>
+                        <span>Home</span>
+                    </div>
                 </NavLink>
-                <span>Home</span>
-                </div>
-                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
-                <NavLink
-                    to='/experience'>
-                     <i className="icon-file-text"></i>
+                <NavLink to='/experience'>
+                    <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
+                            <i className="icon-file-text"></i>
+                            <span>Experience</span>
+                    </div>
                 </NavLink>
-                <span>Experience</span>
-                </div>
-                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
-                <NavLink
-                    to='/education'>
-                    <i className="icon-shield"></i>
+                <NavLink to='/education'>
+                    <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
+                        <i className="icon-shield"></i>
+                        <span>Education</span>
+                    </div>
                 </NavLink>
-                <span>Education</span>
-                </div>
-                <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
-                <NavLink
-                    to='/project'>
-                    <i className="icon-laptop"></i>
+                <NavLink to='/project'>
+                    <div className={`${({ isActive }) => isActive ? activeStyle : undefined} menuWrapper-box`}>
+                        <i className="icon-laptop"></i>
+                        <span>Project</span>
+                    </div>
                 </NavLink>
-                <span>Project</span>
-            </div>
             </div>
         </div>
     )

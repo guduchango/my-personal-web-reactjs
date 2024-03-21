@@ -5,26 +5,28 @@ const Header = () => {
     return (
         <header className="header">
             <nav>
-                <div className="nav-box" title="home">
-                    <NavLink to='/'>
+
+                <NavLink to='/'>
+                    <div className="nav-box" title="home">
                         <i className="icon-home"></i>
-                    </NavLink>
-                </div>
-                <div className="nav-box" title="experience">
-                    <NavLink to='/experience'>
+                    </div>
+                </NavLink>
+                <NavLink to='/experience'>
+                    <div className="nav-box" title="experience">
                         <i className="icon-file-text"></i>
-                    </NavLink>
-                </div>
-                <div className="nav-box" title="education">
-                    <NavLink to='/education'>
+                    </div>
+                </NavLink>
+                <NavLink to='/education'>
+                    <div className="nav-box" title="education">
                         <i className="icon-shield"></i>
-                    </NavLink>
-                </div>
-                <div className="nav-box" title="projects">
-                    <NavLink to='/project'>
+                    </div>
+                </NavLink>
+                <NavLink to='/project'>
+                    <div className="nav-box" title="projects">
                         <i className="icon-laptop"></i>
-                    </NavLink>
-                </div>
+                    </div>
+                </NavLink>
+
             </nav>
         </header>
     )

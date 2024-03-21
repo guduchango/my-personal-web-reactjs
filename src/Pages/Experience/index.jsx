@@ -1,5 +1,5 @@
 
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import Layout from '../../Components/Layout'
 import './styles.css'
 import { GlobalContext } from '../../Context';
@@ -8,6 +8,10 @@ const Experience = () => {
 
     const context = useContext(GlobalContext);
     const items = context.experienceInfo;
+    useEffect(() => {
+        context.setNavSection("experience")
+      }, [context])
+    
 
     return (
         <Layout>

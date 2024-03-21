@@ -37,7 +37,7 @@ nav {
     font-size: 24px;
 }
 
-.nav-box a {
+nav a {
     text-decoration: none;
 }
 
@@ -46,19 +46,19 @@ nav {
     transition-delay: 0.1s;
 }
 
-nav .nav-box:nth-of-type(1) i {
+nav a:nth-of-type(1) i {
     color: var(--font-color1);
 }
 
-nav .nav-box:nth-of-type(2) i {
+nav a:nth-of-type(2) i {
     color: var(--font-color2);
 }
 
-nav .nav-box:nth-of-type(3) i {
+nav a:nth-of-type(3) i {
     color: var(--font-color3);
 }
 
-nav .nav-box:nth-of-type(4) i {
+nav a:nth-of-type(4) i {
     color: var(--font-color4);
 }
 
