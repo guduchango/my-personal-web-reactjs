@@ -8,11 +8,7 @@ const Experience = () => {
 
     const context = useContext(GlobalContext);
     const items = context.experienceInfo;
-    useEffect(() => {
-        context.setNavSection("experience")
-      }, [context])
     
-
     return (
         <Layout>
             <section  aria-labelledby="experience">

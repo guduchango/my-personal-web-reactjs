@@ -33,7 +33,21 @@
         align-items: center;
     }
 
+    .menuWrapperBox-isActive{
+        padding-block: 16px;
+        padding-inline: 16px;
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(250, 176, 196);
+        inline-size: 75px;
+        block-size: 80px;
+        border-radius: 16px;
+        align-items: center;
+        transition-delay: 0.1s;
+    }
+
     .menuWrapper-box:hover {
+        
         background: rgb(250, 176, 196);
         transition-delay: 0.1s;
     }

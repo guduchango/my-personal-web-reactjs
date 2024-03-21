@@ -8,10 +8,6 @@ const Project = () => {
 
     const context = useContext(GlobalContext);
     const items = context.projectInfo;
-    useEffect(() => {
-        context.setNavSection("project")
-      }, [context])
-    
 
     return (
         <Layout>

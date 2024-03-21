@@ -33,7 +33,24 @@ nav {
     text-align: center;
 }
 
+.navBox-isActive {
+    padding-block: 16px;
+    padding-inline: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(250, 176, 196);
+    inline-size: 25px;
+    block-size: 30px;
+    border-radius: 16px;
+    justify-content: center;
+    text-align: center;
+}
+
 .nav-box i {
+    font-size: 24px;
+}
+
+.navBox-isActive i {
     font-size: 24px;
 }
 

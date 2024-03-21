@@ -8,9 +8,6 @@ const Home = () => {
 
     const context = useContext(GlobalContext);
     const items = context.skillInfo;
-    useEffect(() => {
-        context.setNavSection("home")
-      }, [context])
 
     return (
         <Layout>

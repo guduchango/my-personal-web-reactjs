@@ -6,23 +6,23 @@ import Main from '../Main'
 import Menu from '../Menu'
 import './styles.css'
 import useWindowDimensions from '../../hooks/useWindowDimensions'
+import { useLocation } from 'react-router-dom'
 
 
 
 const Layout = ({ children }) => {
 
-    const context = useContext(GlobalContext);
     const { width } = useWindowDimensions();
     const mobileWidthMediaQuery = 900;
-    const homePage = 'home';
+    const homePage = '/';
+    const location = useLocation(); 
 
     const showHeader = () => {
-        return (context.navSection === homePage 
+        return (location === homePage 
         && width <= mobileWidthMediaQuery) 
         || width >= mobileWidthMediaQuery 
     }
-
-
+    
     return (
         <div className="layout">
             <div className="layout-wrapper">

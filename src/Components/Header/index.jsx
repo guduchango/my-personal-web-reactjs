@@ -5,26 +5,17 @@ const Header = () => {
     return (
         <header className="header">
             <nav>
-
-                <NavLink to='/'>
-                    <div className="nav-box" title="home">
-                        <i className="icon-home"></i>
-                    </div>
+                <NavLink to='/' className={({ isActive }) => (isActive ? 'navBox-isActive' : 'nav-box')}>
+                    <i className="icon-home"></i>
                 </NavLink>
-                <NavLink to='/experience'>
-                    <div className="nav-box" title="experience">
-                        <i className="icon-file-text"></i>
-                    </div>
+                <NavLink to='/experience' className={({ isActive }) => (isActive ? 'navBox-isActive' : 'nav-box')}>
+                    <i className="icon-file-text"></i>
                 </NavLink>
-                <NavLink to='/education'>
-                    <div className="nav-box" title="education">
-                        <i className="icon-shield"></i>
-                    </div>
+                <NavLink to='/education' className={({ isActive }) => (isActive ? 'navBox-isActive' : 'nav-box')}>
+                    <i className="icon-shield"></i>
                 </NavLink>
-                <NavLink to='/project'>
-                    <div className="nav-box" title="projects">
-                        <i className="icon-laptop"></i>
-                    </div>
+                <NavLink to='/project' className={({ isActive }) => (isActive ? 'navBox-isActive' : 'nav-box')}>
+                   <i className="icon-laptop"></i>
                 </NavLink>
 
             </nav>

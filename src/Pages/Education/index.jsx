@@ -7,9 +7,6 @@ const Education = () => {
 
     const context = useContext(GlobalContext);
     const items = context.educationInfo;
-    useEffect(() => {
-        context.setNavSection("education")
-      }, [context])
 
     return (
         <Layout>
