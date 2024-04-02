@@ -40,8 +40,8 @@
     "project": [
         {
             "title":"2024 - My personal web with react",
-            "web_url":"https://github.com/guduchango/my-personal-web-reactjs",
-            "github_url":"https://personal-web-presentation-reactjs.edgardoponce.com/",
+            "web_url":"https://personal-web-presentation-reactjs.edgardoponce.com/",
+            "github_url":"https://github.com/guduchango/my-personal-web-reactjs/",
             "image_url":"/src/assets/images/projects/my-personal-web.png",
             "alt":"edgardo ponce personal web capture",
             "detail_list": [

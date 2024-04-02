@@ -24,11 +24,11 @@ const Main = () => {
                 <div className="mainWrapper-personalInfo" aria-labelledby="personal info">
                     <div className="mainWrapperPersonalInfo-item">
                         <div className="mainWrapperPersonalInfoItem-icon">
-                            <i className="icon-phone"></i>
+                            <i className="icon-link"></i>
                         </div>
                         <div className="mainWrapperPersonalInfoItem-text">
-                            <p>Phone</p>
-                            <p>2604558293</p>
+                            <p>Web</p>
+                            <p>edgardoponce.com</p>
                         </div>
                     </div>
                     <div className="mainWrapperPersonalInfo-item">

@@ -44,10 +44,10 @@
         border-radius: 16px;
         align-items: center;
         transition-delay: 0.1s;
+        font-weight: 800;
     }
 
     .menuWrapper-box:hover {
-        
         background: rgb(250, 176, 196);
         transition-delay: 0.1s;
     }
