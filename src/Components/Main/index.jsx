@@ -5,7 +5,7 @@ const Main = () => {
         <main>
             <div className="main-wrapper">
                 <a href="/" aria-current="page">
-                    <img src="/src/assets/images/chango.jpeg" width="256" height="256" alt="Foto edgardo ponce" />
+                    <img src="../../../src/assets/images/chango.jpeg" width="256" height="256" alt="Foto edgardo ponce" />
                 </a>
                 <h1>Edgardo Ponce</h1>
                 <h2>Full Stack Developer</h2>
