@@ -1,26 +1,14 @@
 {
     "education": [
         {
-            "year": "2019 - 2020",
-            "title" : "Senior Programming Technician",
-            "place": "National Technological University",
-            "certificate_url": "./files/certificates/curso-esencial-de-html-y-css.pdf"
+            "year" : "2024",
+            "title": "TypeScript advanced types and functions",
+            "place":"platzi.com",
+            "certificate_url":"./files/certificates/diploma-typescript-tipos-avanzados.pdf"
         },
         {
             "year" : "2024",
-            "title": "Essential Course HTML & CSS",
-            "place":"leonidasesteban.com",
-            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
-        },
-        {
-            "year" : "2024",
-            "title": "CSS Course Grid Layout and Interfaces",
-            "place":"leonidasesteban.com",
-            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
-        },
-        {
-            "year" : "2024",
-            "title": "TailwindCss",
+            "title": "Tailwind CSS",
             "place":"platzi.com",
             "certificate_url":"./files/certificates/diploma-tailwind.pdf"
         },
@@ -35,6 +23,24 @@
             "title": "React.js with typescript",
             "place":"platzi.com",
             "certificate_url":"./files/certificates/diploma-react-typescript.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "Essential Course HTML & CSS",
+            "place":"leonidasesteban.com",
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+        },
+        {
+            "year" : "2024",
+            "title": "CSS Course Grid Layout and Interfaces",
+            "place":"leonidasesteban.com",
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+        },
+        {
+            "year": "2019 - 2020",
+            "title" : "Senior Programming Technician",
+            "place": "National Technological University",
+            "certificate_url": "./files/certificates/curso-esencial-de-html-y-css.pdf"
         }
     ],
     "project": [

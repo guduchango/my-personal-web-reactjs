@@ -18,7 +18,7 @@ const Education = () => {
                             <div key={index} className="educationBoxes-box">
                                 <span>{item.year}</span>
                                 <div className="educationBoxesBox-icon">
-                                    <a href={item.certificate_url} >
+                                    <a target="_blank" href={item.certificate_url} >
                                         <i className="icon-download2"></i>
                                     </a>
                                     <p>{item.title}</p>

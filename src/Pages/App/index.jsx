@@ -1,31 +1,24 @@
 import './styles.css'
-import { useRoutes, BrowserRouter } from 'react-router-dom'
+import {createHashRouter } from 'react-router-dom'
 import Home from '../Home'
 import Experience from '../Experience'
 import Education from '../Education'
 import Project from '../Project'
 import { GlobalContextProvider } from '../../Context'
+import { RouterProvider } from "react-router-dom";
 
-const AppRoutes = () => {
-
-  let routes = useRoutes([
+const router = createHashRouter([
     { path: '/', element: <Home /> },
     { path: '/experience', element: <Experience /> },
     { path: '/education', element: <Education /> },
     { path: '/project', element: <Project /> },
   ])
 
-  return routes
-}
-
-
 function App() {
 
   return (
     <GlobalContextProvider>
-      <BrowserRouter>
-        <AppRoutes />
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </GlobalContextProvider>
   )
 }
