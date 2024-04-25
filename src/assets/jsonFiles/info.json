@@ -2,45 +2,59 @@
     "education": [
         {
             "year" : "2024",
+            "title": "TypeScript OOP and Asynchronism",
+            "place":"platzi.com",
+            "certificate_url":"./files/certificates/diploma-typescript-poo.pdf",
+            "repo_url":"https://github.com/guduchango/type-script-opp-interfaces"
+        },
+        {
+            "year" : "2024",
             "title": "TypeScript advanced types and functions",
             "place":"platzi.com",
-            "certificate_url":"./files/certificates/diploma-typescript-tipos-avanzados.pdf"
+            "certificate_url":"./files/certificates/diploma-typescript-tipos-avanzados.pdf",
+            "repo_url":"https://github.com/guduchango/type-script-types-advanced-functions"
         },
         {
             "year" : "2024",
             "title": "Tailwind CSS",
             "place":"platzi.com",
-            "certificate_url":"./files/certificates/diploma-tailwind.pdf"
+            "certificate_url":"./files/certificates/diploma-tailwind.pdf",
+            "repo_url":"https://github.com/guduchango/platzi-travel-tailwind-reactjs"
         },
         {
             "year" : "2024",
             "title": "React.js with Vite.js and TailwindCss",
             "place":"platzi.com",
-            "certificate_url":"./files/certificates/diploma-react-vite-tailwindcss.pdf"
+            "certificate_url":"./files/certificates/diploma-react-vite-tailwindcss.pdf",
+            "repo_url":"https://github.com/guduchango/platzi-vite-react-tailwind"
         },
         {
             "year" : "2024",
             "title": "React.js with typescript",
             "place":"platzi.com",
-            "certificate_url":"./files/certificates/diploma-react-typescript.pdf"
+            "certificate_url":"./files/certificates/diploma-react-typescript.pdf",
+            "repo_url":"https://github.com/guduchango/platzi-fox-nextjs-typescript-tailwind"
         },
         {
             "year" : "2024",
             "title": "Essential Course HTML & CSS",
             "place":"leonidasesteban.com",
-            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf",
+            "repo_url":"https://github.com/guduchango/leonidas-html-css-essential"
         },
         {
             "year" : "2024",
             "title": "CSS Course Grid Layout and Interfaces",
             "place":"leonidasesteban.com",
-            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf"
+            "certificate_url":"./files/certificates/curso-de-css-grid-layout-e-interfaces.pdf",
+            "repo_url":"https://github.com/guduchango/leonidas-css-grid-layout-interfaces"
         },
         {
             "year": "2019 - 2020",
             "title" : "Senior Programming Technician",
             "place": "National Technological University",
-            "certificate_url": "./files/certificates/curso-esencial-de-html-y-css.pdf"
+            "certificate_url": "./files/certificates/curso-esencial-de-html-y-css.pdf",
+            "repo_url":"https://github.com/guduchango/my-personal-web-reactjs"
         }
     ],
     "project": [

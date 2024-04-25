@@ -21,6 +21,9 @@ const Education = () => {
                                     <a target="_blank" href={item.certificate_url} >
                                         <i className="icon-download2"></i>
                                     </a>
+                                    <a className="repo" target="_blank" href={item.repo_url}>
+                                        <i className="icon-github"></i>
+                                    </a>
                                     <p>{item.title}</p>
                                 </div>
                                 <span>{item.place}</span>

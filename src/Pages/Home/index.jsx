@@ -24,7 +24,6 @@ const Home = () => {
                 </div>
                 <div className="aboutMe-boxes boxes-color">
                 {items.map((item, index) => (
-                
                     <div key={index} className="aboutMeBoxes-details">
                         <div className="aboutMeBoxesDetails-title">
                             <span>{item.title}</span>
@@ -35,7 +34,6 @@ const Home = () => {
                         ))}
                         </div>
                     </div>
-
                     ))}
                 </div>
             </div>

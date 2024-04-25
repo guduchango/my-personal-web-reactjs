@@ -44,3 +44,7 @@
 .educationBoxesBox-icon i {
     color: var(--font-color5);
 }
+
+.educationBoxesBox-icon .repo i {
+    color: black;
+}
